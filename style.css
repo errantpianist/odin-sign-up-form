@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'Norse Bold';
+  src: url('./Norse-Bold.otf');
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #eee;
+}
+
+img#leaves {
+  width: 604px;
+  height: auto;
+  margin: 0;
+  margin-left: -70px;
+  position: absolute;
+  z-index: -1;
+
+}
+
+h1 {
+  font-family: 'Norse Bold', sans-serif;
+  font-size: 5rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  opacity: 1;
+}
+
+body {
+   sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+.left {
+  height: 5rem;
+  width: 35%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background:hsl(0, 0%, 0%, 0.5);
+ 
+}
+
+div.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+#logo {
+  height: 5rem;
+  width: auto;
+}
+
+.right {
+  background-color: #eee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.right-top {
+  padding-left: 3rem;
+  padding-top: 6rem;
+  height: 20%;
+}
+
+.right-form {
+  background-color: #fff;
+  height: auto;
+  box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.6);
+  padding: 1rem 3rem;
+}
+
+
+.caption {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.form-content {
+  display: flex;
+  
+  justify-content: flex-start;
+  gap: 100px;
+  height: 100%;
+}
+
+.form-left, .form-right {
+ display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+p {
+ 
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  opacity: 1;
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #555;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input {
+  border: 1px solid #596D48;
+  border-radius: 5px;
+  width: 240px;
+  height: 30px;
+ 
+}
+input:focus {
+  box-shadow: #333 1px 1px 1px 0;
+  border: 1px solid blue;
+}
+
+input[type="password":error] {
+  border: 1px solid red;
+  
+}
+
+.right-bottom {
+  padding-left: 3rem;
+  padding-top: 2rem;
+
+  
+}
+
+#submit {
+  background-color: #596D48;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+.little {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+  margin-top: 20px;
+
+}
+a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 600;
+}
